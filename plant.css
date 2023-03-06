@@ -1,0 +1,219 @@
+
+
+
+body{
+    background-image: linear-gradient(to bottom,lavender,pink);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+
+.header{
+display:flex;
+
+justify-content:space-between;
+align-items:center;
+}
+
+
+
+.header pre{
+    color:rgb(0, 128, 34);
+}
+
+.categories{
+display:flex;
+justify-content:space-around;
+}
+
+a{
+color:black;
+text-decoration:none;
+}
+
+
+a:hover{
+color:green;}
+
+.theme{
+display:flex;
+justify-content:center;
+width:1600px;
+height:500px;
+background-color:tomato;
+font-family:Playfair Display;
+font-size:50px;
+color:#fafff5;
+background-image:url("leaves.png");
+background-size:cover;
+background-position:center;
+}
+
+.sets{
+
+display:grid;
+grid-template-columns:repeat(4,250px);
+grid-gap:70px;
+justify-content:space-around;
+margin:2% 30%;
+
+}
+
+.p img{
+    height:100%;
+    width:100%;
+border-top-radius:15px
+}
+
+.p{
+background-color:#CC99FF;
+ border-radius:25px;
+height:350px;
+box-shadow:5px 5px 5px grey ;
+
+}
+
+.p:hover{
+transform:scale(1.03);
+transition: 0.2s;
+ 
+}
+
+
+
+.low{
+    
+    display: flex;
+    margin-left: 100px;
+    width: 100%;
+   
+
+}
+    .right{
+        position: absolute;
+        right: 15px;
+        bottom:-690px;
+        background-color:white;
+        border:0px;
+        border-radius: 30px;
+        height: 50px;
+        width: 50px;
+        box-shadow: 2px 2px 4px #aaa inset;
+        
+    }
+    .left{
+        position: absolute;
+        bottom:-690px;
+        left:30px;
+        background-color:white;
+        border:0px;
+        border-radius: 30px;
+        height: 50px;
+        width: 50px;
+        box-shadow: 2px 2px 8px #aaa inset;
+    }
+    
+
+        .l_container{  margin-left: 100px;
+    margin-top: 5px;
+    background-color: white;
+    width:300px;
+    
+    box-shadow: 5px 5px 3px #aaa;
+    border-radius: 5px;
+}
+
+.l_container .i img{
+    width:96%;
+    height:250px;
+    border-radius: 5px;
+    border: 6px solid wheat; 
+    }
+
+    .i1 h3{
+        margin-left: 95px;
+        margin-top: 5px;
+    }
+
+
+
+.l_container .i1 button{
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    
+    margin-bottom: 5px;
+    background-color: white;
+    color:green;
+    border: 1px solid #aaa;
+}
+
+.l_container .i1 button:hover{
+    color: white;
+    background-color: greenyellow;
+}
+
+@media (max-width: 500px) {
+    
+.theme{
+    width:600px;
+    height:300px;
+    display: flex;
+    justify-content: flex-start;}
+ .theme .quote {
+        font-size: 20px;
+        position: absolute;
+        padding-top: 20px;}
+                 
+        .sets{display:grid;
+            grid-template-columns:repeat(2,175px);
+            grid-gap:35px;
+            justify-content:space-around;
+            margin:2% 30%;}
+            .p{ background-color:#CC99FF;
+                 border-radius:25px;
+                height:250px;
+                box-shadow:5px 5px 5px grey ;}
+
+                .low{ margin:0px;
+                   padding: 0px;}
+
+                .l_container{  margin-left: 10px;
+                    margin-top: 3px;
+                    width:150px;}
+
+                .i1 h3{ margin-left: 30px;
+                    margin-top: 2.5px;}
+            
+                .l_container .i1 button{
+                margin-left: 30px;
+                margin-right: 20px;}
+
+            .left{position: absolute;
+                bottom:-650px;
+                left:-2px;
+                border-radius: 30px;
+                height: 35px;
+                width: 30px;}
+        
+                .right{position: absolute;
+                    right: 3px;
+                    bottom:-650px;
+                    border-radius: 30px;
+                    height: 35px;
+                    width: 30px;}
+                
+                .l_container .i img{width:96%;
+                    height:250px;
+                    border-radius: 5px;
+                    border: 3px solid wheat; }
+                    .categories{
+                        font-size: 10px;
+                    }
+            
+ 
+    }
+    

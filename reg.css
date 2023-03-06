@@ -1,0 +1,68 @@
+body{
+    background-color: lavender;
+   
+}
+.home{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+   transform:translate(-50%,-50%);
+    background-color: white;
+width: 500px;
+height: 350px;
+padding: 20px;
+box-shadow: 5px 10px 50px 2px #aaa;
+border-radius: 15px;
+}
+
+.head{
+    font-size: 25px;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+
+
+
+
+.item{
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.container .item input[type="text"]{
+    margin-left: 30px;
+}
+
+.container .item input[type="password"]{
+    margin-left:10px
+}
+
+.container .item input{
+    width:300px;
+    height: 30px;
+    border:1px solid #aaa;
+    border-radius:5px;
+}
+.container .item input[type="submit"]{
+    margin-left:150px;
+    margin-top: 20px;
+    
+    height:35px;
+    width: 100px;
+    font-size: medium;
+    background-color: white;
+    border: 1px solid rgb(128, 0, 55);
+color: rgb(128, 0, 55);
+}
+
+.container .item input[type="submit"]:hover{
+    background-color:rgb(128, 0, 55);
+    color:white;
+}

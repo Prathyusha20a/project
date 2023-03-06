@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/2761b21562.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+             <div class="home">
+        
+       </div>
+     
+       <div class="login">
+        <div class="l"> Log in</div>
+        
+        <form name="myform" action="new.html" onsubmit="return validate()">
+
+        <div class="item">
+            <label for="1">Name:</label>
+            
+            <input type="text" name="name" placeholder="eg: sara" id="1" >
+        </div>
+        <div class="item">
+           <label for="2">Email:</label>
+            <input type="text" name="mail" placeholder="eg: abc@gmail.com" id="2">
+        </div>
+        <div class="item">
+            <label for="3">Password:</label>
+            <input type="password"  id="3">
+
+        </div>
+        <div class="item">
+            
+           <input type="submit" value="sign in">
+        </div>
+    </form>
+   
+<div class="forgot">
+    <a href="#">Forgot Password?</a>
+</div>
+
+
+    </div>
+
+    
+
+    
+</body>
+<script>
+       
+    function validate()
+        {
+            var Name=document.myform.name.value;
+            if(Name==null || Name=="")
+            {
+                alert("Please fill all the fields");
+                return false;
+            }
+
+            var x=document.myform.mail.value;
+         var at=x.indexOf("@");
+        var dot=x.lastIndexOf(".");
+        if(at<1 || dot<at+2 || dot+2>=x.length)
+            {alert("enter valid mail\n @position :"+at+"\n dotposition: "+dot);
+                return false;
+            }
+            
+    
+        }
+
+    </script>
+</html>

@@ -1,0 +1,57 @@
+.container{
+ display:grid;
+ grid-template-columns: repeat(3,450px);
+ grid-row-gap:50px;
+  grid-column-gap: 50px; 
+  grid-template-rows: 500px 250px;
+  
+    }
+
+
+
+.f{
+    width:350px;
+    
+   margin-left:auto;
+    border-radius: 20px;
+    background-color:#e68aff;
+
+}
+
+.f:hover{
+   transform: scale(1.1);
+    box-shadow: 5px 5px 5px red inset;
+}
+
+.image img{
+   width:100%;
+
+  border-radius: 5px; 
+}
+
+.name{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.price{
+    text-align: center;
+    margin-top:20px;
+}
+
+
+
+.button{
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    
+    cursor:pointer;
+}
+button:hover{
+    background-color: green;
+
+}

@@ -1,0 +1,50 @@
+.soil{
+   background-color: #bc8f8f;
+   width:1600px;
+height:700px;
+background-image:url("https://thumbs.dreamstime.com/b/hand-holding-young-plant-blur-green-nature-background-concept-eco-earth-day-hand-holding-young-plant-blur-green-nature-152466326.jpg");
+background-size:cover;
+background-position:center;
+
+}
+
+.instructions{
+    color:#993300;
+    padding: 30px;
+}
+
+
+.high-h{
+    color:#993300;
+    font-size: 40px; 
+    text-decoration: underline;
+    padding-left: 600px;
+}
+.high{
+    color: #e64d00;
+    font-weight: 500px;
+    font-size: 20px;
+    
+    font-family: Helvetica;
+}
+
+
+@media (max-width:500px){
+    .soil{ width:500px;
+    height: 550px;}
+
+    .high-h{
+        color:#993300;
+        font-size: 35px; 
+        text-decoration: underline;
+        padding-left: 15px;
+    }
+
+    .instructions{
+        position: absolute;
+        font-size:8.2px;
+        padding-top: 30px;
+        padding-left: 5px;
+    }
+    
+} 
